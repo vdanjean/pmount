@@ -48,7 +48,7 @@ static struct FS supported_fs[] = {
     },
     {
         .fsname = "exfat",
-        .options = "nosuid,nodev,user,quiet,nonempty",
+        .options = "nosuid,nodev,user",
         .support_ugid = 1,
         .umask = "077",
         .iocharset_format = ",iocharset=%s",
